@@ -63,7 +63,7 @@ function Todolist() {
               <FaStar className="mr-2 text-blue-500" /> Important
             </li>
             <li className="flex items-center cursor-pointer hover:underline" onClick={() => setFilter("completed")}>
-              <FaCalendarAlt className="mr-2 text-green-500" /> Completed
+              <FaCalendarAlt className="mr-2 text-green-500 " /> Completed
             </li>
             <li className="flex items-center cursor-pointer hover:underline" onClick={() => setFilter("uncompleted")}>
               <FaUser className="mr-2 text-purple-500" /> Uncompleted
